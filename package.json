@@ -1,6 +1,6 @@
 {
-  "name": "p3_atm_program",
-  "version": "1.0.1",
+  "name": "@farisshah/atm_program",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
