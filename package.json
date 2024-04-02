@@ -1,19 +1,15 @@
 {
-  "name": "@farisshah/atm_program",
-  "version": "1.0.0",
+  "name": "p2_atm_program",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "publishConfig": {
-    "access": "public"
-  },
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "farisshah",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.16"
   },

@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let mybalance = 10000;
 let pincode = 1234;
@@ -40,10 +41,18 @@ if (pinAnswer.pin === pincode) {
                 choices: [500, 2000, 6000, 10000]
             }
         ]);
-        if (options.options <= 10000)
-            if (options.options === 500) {
-                console.log("Now your balance is " + (mybalance - options.options));
-            }
+        if (options.options === 500) {
+            console.log("Now your balance is " + (mybalance - options.options));
+        }
+        else if (options.options === 2000) {
+            console.log("Now your balance is " + (mybalance - options.options));
+        }
+        else if (options.options === 6000) {
+            console.log("Now your balance is " + (mybalance - options.options));
+        }
+        else {
+            console.log("Now your balance is " + (mybalance - options.options));
+        }
     }
     else {
         console.log(mybalance);
