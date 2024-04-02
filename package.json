@@ -1,6 +1,6 @@
 {
-  "name": "p2_atm_program",
-  "version": "1.0.2",
+  "name": "p3_atm_program",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "type": "module",

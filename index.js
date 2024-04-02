@@ -2,6 +2,7 @@
 import inquirer from "inquirer";
 let mybalance = 10000;
 let pincode = 1234;
+console.log("PIN = 1234");
 console.log("Your current balance is: " + mybalance);
 let pinAnswer = await inquirer.prompt({
     name: "pin",
